@@ -1,0 +1,28 @@
+{
+	"schemaVersion": 1,
+	"id": "${id}",
+	"version": "${version}",
+	"name": "${name}",
+	"description": "${description}",
+	"authors": [
+		"${author}"
+	],
+	"contact": {
+		"sources": "https://github.com/edebeawa/BiggerStructures/tree/fabric"
+	},
+	"license": "${license}",
+	"icon": "icon.png",
+	"environment": "*",
+	"entrypoints": {},
+	"mixins": [
+		"${id}.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.21",
+		"minecraft": ">=1.14",
+		"java": ">=17"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

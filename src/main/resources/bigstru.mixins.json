@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "be.cloudns.edebe.bigstru.fabric.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "ServerboundSetStructureBlockPacketMixin",
+    "StructureBlockEntityMixin"
+  ],
+  "client": [],
+  "server": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
