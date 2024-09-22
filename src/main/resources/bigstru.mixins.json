@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "package": "be.cloudns.edebe.bigstru.forge.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "ServerboundSetStructureBlockPacketMixin",
+    "StructureBlockEntityMixin"
+  ],
+  "client": [],
+  "server": [],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "refmap": "${refmap}"
+}
